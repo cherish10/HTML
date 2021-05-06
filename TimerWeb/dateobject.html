@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function clock(){
+            var now = new Date();
+
+        var year = now.getFullYear();
+        var month = now.getMonth();
+        var _date = now.getDate();
+        var day = now.getDay();
+        var hours = now.getHours();
+        var min = now.getMinutes();
+        var sec = now.getSeconds();
+
+        //console.log(year,month,_date,day,hours,min,sec);
+        switch(day){
+            case 0 : day = "일";
+            break;
+            case 1 : day = "월";
+            break;
+            case 2 : day = "화";
+            break;
+            case 3 : day = "수";
+            break;
+            case 4 : day = "목";
+            break;
+            case 5 : day = "금";
+            break;
+            case 6 : day = "토";
+            break;
+        }
+        if(hours >=13){
+            hours -= 12
+        }
+
+        if(hours <10){
+            hours = "0" + hours
+        }
+        if(min <10){
+            min = "0" + min
+        }
+        if(sec <10){
+            sec = "0" + sec
+        }
+
+        var print = `${year}년 ${month}월 ${_date}일 ${day}요일 ${hours}시 ${min}분 ${sec}초`;
+        //0000년 00월 00일 0요일 00시 00분 00초
+        console.log(print)
+        }
+
+        setInterval(clock,500);
+            
+       
+
+    </script>
+</body>
+</html>
