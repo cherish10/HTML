@@ -23,4 +23,5 @@ Html
 >http://ghdwn0314.dothome.co.kr/TimerWeb/dateobject.html
 
 # Wavve 프로젝트 디자인
+이미지는 저작권으로 인해 안보여짐..
 >http://ghdwn0314.dothome.co.kr/Wavve/wavve.html
