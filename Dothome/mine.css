@@ -1,0 +1,57 @@
+body{
+	padding-top: 90px;
+}
+
+.container-fiuid{
+	padding: 0;
+}
+
+.navbar{
+	height: 90px;
+	background-color: #fff;
+	font-size: 1.2em;
+	border: none;
+	border-bottom: 1px solid #aaa;
+}
+
+.navbar-toggle{
+	margin-top: 40px;
+}
+
+.item img{
+	width: 100%;
+}
+
+.icons{
+	padding: 20px;
+	font-size: 30px;
+	background-color: #D1B2FF;
+	border-radius: 100%;
+	text-align: center;
+	margin-right: 15px;
+	transition: all 0.4s;
+	float: left;
+}
+
+.icons:hover{
+	background-color: #E8D9FF;
+}
+
+.icontxt{
+	padding-bottom: 15px;
+}
+
+.icontxt h4{
+	color: #444;
+	font-weight: bold;
+}
+
+.content1{
+	background-color: #ababab;
+}
+
+footer{
+	color: #fff;
+	text-align: center;
+	padding: 30px 0;
+}

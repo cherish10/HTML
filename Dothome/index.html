@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mine</title>
+
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mine.css">
+  </head>
+  <body>
+    <div class="container-fluid"><!-- container-fluid start -->
+     <!-- navbar start -->
+     <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">aaa</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <!-- navbar end  -->
+      <!-- carousel start -->
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="imgs/slide1.jpg" alt="..."> <!-- 여행사 -->
+          </div>
+          <div class="item">
+            <img src="imgs/slide3.jpg" alt="..."> <!-- 빵집 -->
+          </div>
+          <div class="item">
+            <img src="imgs/slide2.jpg" alt="..."> <!-- 웨딩 -->
+          </div>
+          <div class="item">
+            <img src="imgs/slide4.jpg" alt="..."> <!-- 사진 -->
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- carousel end -->
+      <div style="margin: 50px 0"></div>
+      <!-- icon start -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 icontxt">
+            <span class="glyphicon glyphicon-briefcase icons"></span>
+            <h4>이력사항</h4>
+            <p></p>
+          </div>
+          <div class="col-xs-12 col-md-4 icontxt">
+            <a href="#" onclick="$('#portfolio').animatescroll();">
+            <span class="glyphicon glyphicon-wrench icons"></span>
+            <h4>경력기술서</h4></a>
+          </div>
+          <div class="col-xs-12 col-md-4 icontxt">
+            <span class="glyphicon glyphicon-user icons"></span>
+            <h4>자기소개서</h4>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <!-- icon end -->
+      <!-- portfolio start -->
+      <div id="portfolio"></div>
+      <header class="content1">
+        <div class="container">
+          <h1><small>Portfolio</small></h1>
+        </div>
+      </header>
+      <div class="container">
+        <h3>Site Development</h3>
+        <!-- carousel start -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="row">
+                <div class="col-xs-3">
+                  <div class="thumbnail">
+                    <a href="travel/index.html" class="fancybox">
+                    <img src="pf/pic2.png" class="img-responsive"></a>
+                    <h4>여행사</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                  </div>
+                </div>
+                <div class="col-xs-3">
+                  <div class="thumbnail">
+                    <a href="bakery/bakery.html" class="fancybox">
+                    <img src="pf/pic4.png" class="img-responsive"></a>
+                    <h4>빵집</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                  </div>
+                </div>
+                <div class="col-xs-3">
+                  <div class="thumbnail">
+                    <a href="wedding/wedding.html" class="fancybox">
+                    <img src="pf/pic3.png" class="img-responsive"></a>
+                    <h4>웨딩</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                  </div>
+                </div>
+                <div class="col-xs-3">
+                  <div class="thumbnail">
+                    <a href="photo/03.04.html">
+                    <img src="pf/pic1.png" class="img-responsive"></a>
+                    <h4>사진동호회</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- carousel-inner end -->
+        </div>
+        <!-- carousel end -->
+      </div>
+      <!-- portfolio end -->
+      <footer class="content1">
+        <div class="container">
+          assasasas
+        </div>
+      </footer>
+    </div><!-- container-fluid end --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script>
+      $(".carousel").carousel({
+        interval:2000
+      });
+    </script>
+  </body>
+</html>
